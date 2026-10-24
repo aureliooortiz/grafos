@@ -1,0 +1,19 @@
+## Como executar
+
+1. Criar e ativar o ambiente virtual:
+
+   python3 -m venv .venv
+   source .venv/bin/activate        # Windows: .venv\Scripts\activate
+
+2. Instalar as dependências:
+
+   pip install -r requirements.txt
+
+3. Executar (a partir da pasta src/):
+
+   python3 graph.py < ../in/Instancia1.txt
+
+## Formato da entrada
+
+Uma cláusula por linha, com dois literais separados por espaço
+(ex.: "~x1 x4" representa a cláusula (¬x1 ∨ x4)).
