@@ -11,7 +11,9 @@
 
 3. Executar (a partir da pasta src/):
 
-   python3 graph.py < ../in/Instancia1.txt
+   python3 graph.py < ../in/instancia1.txt
+
+Há 3 exemplos de instâncias contidos nos arquivos instancia1.txt, instancia2.txt e instancia3.txt 	
 
 ## Formato da entrada
 
