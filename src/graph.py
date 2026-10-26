@@ -48,6 +48,7 @@ def Resolve_2SAT(G):
 # Cria um grafo vazio
 G = nx.DiGraph()
 
+# Lê o grafo
 for linha in sys.stdin:
     partes = linha.split()
     if len(partes) == 0:
